@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 1280px;
+  margin: auto;
+  position: relative;
+}
+
+.columns {
+  width: 940px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 60px;
+  height: 976px;
+  background-color: #ffe5e5;
+}
+
+.section_one p,
+h3 {
+  text-transform: uppercase;
+}
+
+.section_three,
+.section_one {
+  text-align: center;
+}
+
+.section_one {
+  width: 620px;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 340px;
+}
+
+.section_one :nth-child(1) {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 30px;
+  letter-spacing: 0.4em;
+  color: #898f99;
+  padding-top: 53px;
+}
+
+.section_one :nth-child(2) {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #0ec8cb;
+  padding-top: 27px;
+  width: 595px;
+}
+
+.section_one :nth-child(3) {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #999999;
+  padding-top: 38px;
+  letter-spacing: 0.073em;
+  width: 524px;
+  margin-left: 40px;
+}
+
+.section_three {
+  width: 960px;
+  position: absolute;
+  top: 418px;
+  left: 170px;
+}
+
+.cards {
+  display: flex;
+  list-style: none;
+}
+
+.card {
+  width: 238px;
+  height: 424px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(238, 212, 212, 0.25);
+  background-color: rgba(248, 222, 222, 0.25);
+}
+
+.card:nth-child(1),
+.card:nth-child(4) {
+  width: 228px;
+}
+
+.card p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #777777;
+  width: 190px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.card:nth-child(1) h3 {
+  padding-top: 44px;
+}
+
+.card:nth-child(2) h3 {
+  padding-top: 30px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  color: #1b1b1b;
+  padding-top: 60px;
+  width: 190px;
+  margin: auto;
+}
+
+.fa-gem,
+.fa-anchor {
+  font-size: 66px;
+}
+
+.fa-glasses {
+  font-size: 49px;
+}
+
+.fa-tv {
+  font-size: 53px;
+}
+
+.fas,
+.far {
+  padding-top: 61px;
+  font-weight: 600;
+}
+
+.card:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(14, 198, 201, 0.5);
+  background-color: rgba(14, 198, 201, 0.5);
+}
+
+.card:hover p,
+.card:hover h3,
+.card:hover .fas,
+.card:hover .far {
+  color: rgb(255, 255, 255);
+}
